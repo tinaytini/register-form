@@ -1,0 +1,30 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-form  {
+    padding: 50px;
+    width: 400px;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input, button {
+    margin: 10px 0;
+    padding: 10px;
+    font-weight: bold;
+  }
+
+#error {
+    /* opacity: 0; */
+    display: none;
+}
+#error-2 {
+    /* opacity: 0; */
+    display: none;
+}
+
